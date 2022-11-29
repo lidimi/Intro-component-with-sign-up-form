@@ -71,5 +71,61 @@ main {
     color: white;
     background-color: hsl(248, 32%, 49%);
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+
+}
+
+input {
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(249, 10%, 26%);
+}
+
+
+label {
+    visibility: hidden;
+}
+
+button {
+    margin: 1.5rem 0 .5rem;
+    width: 100%;
+    padding: 1.3rem;
+    text-transform: uppercase;
+    border: none;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.agreement {
+    font-size: small;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    margin-bottom: 1.8rem;
+}
+
+.agreement a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
+
+/*=========== 
+ACTIVE STATES
+============= */
+
+button:hover {
+    cursor: pointer;
 }
