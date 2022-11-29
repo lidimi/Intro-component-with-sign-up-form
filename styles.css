@@ -100,6 +100,7 @@ input {
 
 
 label {
+    font-size: xx-small;
     visibility: hidden;
 }
 
@@ -141,11 +142,21 @@ ACTIVE STATES
     font-style: italic;
 }
 
-
 button:hover {
     cursor: pointer;
     background-color: hsl(154, 74%, 62%);
 }
+
+input:focus {
+    border: 1px solid hsl(249, 10%, 26%);
+    outline: none;
+}
+
+
+/*========= 
+MEDIA QUERY
+=========== */
+
 
 @media (max-width: 1000px) {
     body {
